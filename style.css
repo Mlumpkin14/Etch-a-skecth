@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    width: 720px;
+    height: 540px;
+    grid-gap: 0;
+    margin: auto;
+    justify-content: stretch;
+    border: 2px solid black;
+}
+
+.active {
+    background-image: linear-gradient(navy, cyan, blue);
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
